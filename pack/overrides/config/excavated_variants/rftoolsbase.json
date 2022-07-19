@@ -1,0 +1,48 @@
+{
+  "mod_id": "rftoolsbase",
+  "provided_stones": [],
+  "provided_ores": [
+    {
+      "block_id": [
+        "rftoolsbase:dimensionalshard_overworld"
+      ],
+      "en_name": "Dimensional Shard Ore",
+      "types": [
+        "stone"
+      ],
+      "texture_count": 5,
+      "id": "dimensionalshard_ore",
+      "stone": [
+        "stone"
+      ]
+    },
+    {
+      "block_id": [
+        "rftoolsbase:dimensionalshard_nether"
+      ],
+      "en_name": "Dimensional Shard Ore",
+      "types": [
+        "nether"
+      ],
+      "texture_count": 5,
+      "id": "dimensionalshard_ore",
+      "stone": [
+        "netherrack"
+      ]
+    },
+    {
+      "block_id": [
+        "rftoolsbase:dimensionalshard_end"
+      ],
+      "en_name": "Dimensional Shard Ore",
+      "types": [
+        "end"
+      ],
+      "texture_count": 5,
+      "id": "dimensionalshard_ore",
+      "stone": [
+        "end_stone"
+      ]
+    }
+  ]
+}

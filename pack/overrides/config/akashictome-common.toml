@@ -1,0 +1,5 @@
+"Allow all items to be added" = false
+"Whitelisted Items" = []
+"Whitelisted Names" = ["book", "tome", "lexicon", "nomicon", "manual", "knowledge", "pedia", "compendium", "guide", "codex", "journal", "dictionary", "chronicle", "materials", "smelting", "gadgetry", "foundry"]
+"Blacklisted Mods" = []
+"Mod Aliases" = ["nautralpledge=botania", "thermalexpansion=thermalfoundation", "thermaldynamics=thermalfoundation", "thermalcultivation=thermalfoundation", "redstonearsenal=thermalfoundation", "rftoolsdim=rftools", "rftoolspower=rftools", "rftoolscontrol=rftools", "ae2stuff=appliedenergistics2", "animus=bloodmagic", "integrateddynamics=integratedtunnels", "mekanismgenerators=mekanism", "mekanismtools=mekanism", "deepresonance=rftools", "xnet=rftools", "buildcrafttransport=buildcraft", "buildcraftfactory=buildcraft", "buildcraftsilicon=buildcraft"]

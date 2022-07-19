@@ -1,0 +1,22 @@
+{
+  "mod_id": "immersiveengineering",
+  "provided_stones": [],
+  "provided_ores": [
+    {
+      "block_id": [
+        "immersiveengineering:ore_aluminum",
+        "immersiveengineering:deepslate_ore_aluminum"
+      ],
+      "en_name": "Bauxite Ore",
+      "types": [
+        "stone"
+      ],
+      "texture_count": 5,
+      "id": "aluminum_ore",
+      "stone": [
+        "stone",
+        "deepslate"
+      ]
+    }
+  ]
+}

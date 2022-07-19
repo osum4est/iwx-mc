@@ -1,0 +1,14 @@
+
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = @PROJECT_ID@
+	#The name of the modpack
+	modpackName = "@PACK_NAME@"
+	#The version of the modpack
+	modpackVersion = "@PACK_VERSION@"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+
