@@ -7,7 +7,7 @@ import archiver from "archiver";
 
 const PROJECT_ID = 637490;
 const PACK_NAME = "IWX MC";
-const PACK_VERSION = "1.0.0";
+const PACK_VERSION = "1.0.1";
 
 const ZIP_NAME = `IWX MC-${PACK_VERSION}`;
 const BUILD_DIR = "./build";
