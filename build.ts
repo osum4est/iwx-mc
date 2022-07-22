@@ -45,7 +45,7 @@ const SERVER_PACK_OVERRIDES_DIR = "./server_pack_overrides";
     program.option("-s, --server <mods dir>", "build server pack using the specified mods directory").parse();
 
     const { server } = program.opts<{ server: string }>();
-    if (!fs.existsSync(server)) {
+    if (server && !fs.existsSync(server)) {
         console.error(`${server} is not a directory`);
         process.exit(1);
     }
@@ -152,7 +152,7 @@ function copyMods(from: string, to: string) {
 
 function updateConfigs() {
     for (const globFile of FILES_TO_UPDATE) {
-        for (const file of glob.sync(path.join(BUILD_DIR, globFile))) {
+        for (const file of glob.sync(path.join(PACK_BUILD_DIR, globFile))) {
             console.log("Updating " + file);
             let contents = fs.readFileSync(file, "utf8");
             for (const key of Object.keys(PROPERTIES))
