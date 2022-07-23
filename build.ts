@@ -140,7 +140,7 @@ function copyMods(from: string, to: string) {
     let count = 0;
 
     for (const file of files) {
-        if (CLIENT_ONLY_MODS.find(text => file.toLowerCase().startsWith(text.toLowerCase()))) continue;
+        if (CLIENT_ONLY_MODS.find(text => path.basename(file).toLowerCase().startsWith(text.toLowerCase()))) continue;
         const dest = path.join(to, file.replace(from, ""));
         if (!fs.existsSync(path.dirname(dest))) fs.mkdirSync(path.dirname(dest), { recursive: true });
         fs.copyFileSync(file, dest);
