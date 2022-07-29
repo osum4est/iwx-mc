@@ -1893,50 +1893,6 @@
 				},
 				"unify": true
 			},
-			"byg:ametrine_block": {
-				"id": "byg:ametrine_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/ametrine",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "ametrine"
-				},
-				"unify": true
-			},
-			"byg:pendorite_block": {
-				"id": "byg:pendorite_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/pendorite",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "pendorite"
-				},
-				"unify": true
-			},
-			"byg:anthracite_block": {
-				"id": "byg:anthracite_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/anthracite",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "anthracite"
-				},
-				"unify": true
-			},
-			"byg:lignite_block": {
-				"id": "byg:lignite_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/lignite",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "lignite"
-				},
-				"unify": true
-			},
 			"thermal:charcoal_block": {
 				"id": "thermal:charcoal_block",
 				"mod": "thermal",
@@ -4257,6 +4213,61 @@
 					"material": "brass"
 				},
 				"unify": true
+			},
+			"immersiveengineering:plate_duroplast": {
+				"id": "immersiveengineering:plate_duroplast",
+				"mod": "immersiveengineering",
+				"tag": {
+					"str": "forge:plates/plastic",
+					"domain": "forge",
+					"type": "plates",
+					"material": "plastic"
+				},
+				"unify": true
+			},
+			"byg:ametrine_block": {
+				"id": "byg:ametrine_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/ametrine",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "ametrine"
+				},
+				"unify": true
+			},
+			"byg:pendorite_block": {
+				"id": "byg:pendorite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/pendorite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "pendorite"
+				},
+				"unify": true
+			},
+			"byg:anthracite_block": {
+				"id": "byg:anthracite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/anthracite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "anthracite"
+				},
+				"unify": true
+			},
+			"byg:lignite_block": {
+				"id": "byg:lignite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/lignite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "lignite"
+				},
+				"unify": true
 			}
 		},
 		"picked": {
@@ -6072,54 +6083,6 @@
 				"unify": true,
 				"priority": 2
 			},
-			"forge:storage_blocks/ametrine": {
-				"id": "byg:ametrine_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/ametrine",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "ametrine"
-				},
-				"unify": true,
-				"priority": 9007199254740991
-			},
-			"forge:storage_blocks/pendorite": {
-				"id": "byg:pendorite_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/pendorite",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "pendorite"
-				},
-				"unify": true,
-				"priority": 9007199254740991
-			},
-			"forge:storage_blocks/anthracite": {
-				"id": "byg:anthracite_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/anthracite",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "anthracite"
-				},
-				"unify": true,
-				"priority": 9007199254740991
-			},
-			"forge:storage_blocks/lignite": {
-				"id": "byg:lignite_block",
-				"mod": "byg",
-				"tag": {
-					"str": "forge:storage_blocks/lignite",
-					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "lignite"
-				},
-				"unify": true,
-				"priority": 9007199254740991
-			},
 			"forge:storage_blocks/gunpowder": {
 				"id": "thermal:gunpowder_block",
 				"mod": "thermal",
@@ -7664,6 +7627,66 @@
 					"domain": "forge",
 					"type": "rods",
 					"material": "brass"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:plates/plastic": {
+				"id": "immersiveengineering:plate_duroplast",
+				"mod": "immersiveengineering",
+				"tag": {
+					"str": "forge:plates/plastic",
+					"domain": "forge",
+					"type": "plates",
+					"material": "plastic"
+				},
+				"unify": true,
+				"priority": 4
+			},
+			"forge:storage_blocks/ametrine": {
+				"id": "byg:ametrine_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/ametrine",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "ametrine"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:storage_blocks/pendorite": {
+				"id": "byg:pendorite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/pendorite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "pendorite"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:storage_blocks/anthracite": {
+				"id": "byg:anthracite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/anthracite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "anthracite"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:storage_blocks/lignite": {
+				"id": "byg:lignite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/lignite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "lignite"
 				},
 				"unify": true,
 				"priority": 9007199254740991
