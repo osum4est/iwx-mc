@@ -3,6 +3,11 @@
 const CASING = "immersiveengineering:empty_casing";
 
 const toRemove = [
+    "cgm:basic_bullet",
+    "cgm:advanced_bullet",
+    "additionalguns:bullet_short",
+    "additionalguns:bullet_long",
+    "additionalguns:bullet_special",
     "additionalguns:casing_small",
     "additionalguns:casing_medium",
     "additionalguns:casing_heavy",
@@ -16,39 +21,19 @@ const overrides = [
     {
         type: "cgm:workbench",
         materials: [
-            { item: CASING, count: 8 },
+            { item: CASING, count: 1 },
             { tag: "forge:gunpowder", count: 1 },
             { tag: "forge:ingots/gold", count: 1 }
         ],
         result: { item: "additionalguns:bullet_small", count: 8 },
         id: "additionalguns:bullet_small"
     },
-    {
-        type: "cgm:workbench",
-        materials: [
-            { item: CASING, count: 8 },
-            { tag: "forge:gunpowder", count: 1 },
-            { tag: "forge:ingots/gold", count: 1 }
-        ],
-        result: { item: "cgm:basic_bullet", count: 8 },
-        id: "cgm:basic_bullet"
-    },
-    {
-        type: "cgm:workbench",
-        materials: [
-            { item: CASING, count: 8 },
-            { tag: "forge:gunpowder", count: 1 },
-            { tag: "forge:ingots/gold", count: 1 }
-        ],
-        result: { item: "additionalguns:bullet_short", count: 8 },
-        id: "additionalguns:bullet_short"
-    },
 
     // Medium bullets
     {
         type: "cgm:workbench",
         materials: [
-            { item: CASING, count: 4 },
+            { item: CASING, count: 1 },
             { tag: "forge:gunpowder", count: 1 },
             { tag: "forge:ingots/gold", count: 1 },
             { tag: "forge:ingots/bronze", count: 1 }
@@ -59,18 +44,7 @@ const overrides = [
     {
         type: "cgm:workbench",
         materials: [
-            { item: CASING, count: 4 },
-            { tag: "forge:gunpowder", count: 1 },
-            { tag: "forge:ingots/gold", count: 1 },
-            { tag: "forge:ingots/bronze", count: 1 }
-        ],
-        result: { item: "additionalguns:bullet_special", count: 4 },
-        id: "additionalguns:bullet_special"
-    },
-    {
-        type: "cgm:workbench",
-        materials: [
-            { item: CASING, count: 4 },
+            { item: CASING, count: 1 },
             { tag: "forge:gunpowder", count: 1 },
             { tag: "forge:ingots/gold", count: 1 },
             { tag: "forge:ingots/bronze", count: 1 }
@@ -91,34 +65,12 @@ const overrides = [
         result: { item: "additionalguns:bullet_heavy", count: 2 },
         id: "additionalguns:bullet_heavy"
     },
-    {
-        type: "cgm:workbench",
-        materials: [
-            { item: CASING, count: 2 },
-            { tag: "forge:gunpowder", count: 1 },
-            { tag: "forge:ingots/gold", count: 1 },
-            { tag: "forge:ingots/steel", count: 1 }
-        ],
-        result: { item: "cgm:advanced_bullet", count: 2 },
-        id: "cgm:advanced_bullet"
-    },
-    {
-        type: "cgm:workbench",
-        materials: [
-            { item: CASING, count: 2 },
-            { tag: "forge:gunpowder", count: 1 },
-            { tag: "forge:ingots/gold", count: 1 },
-            { tag: "forge:ingots/steel", count: 1 }
-        ],
-        result: { item: "additionalguns:bullet_long", count: 2 },
-        id: "additionalguns:bullet_long"
-    },
 
     // Grenades
     {
         type: "cgm:workbench",
         materials: [
-            { tag: "forge:ingots/iron", count: 2 },
+            { tag: "forge:ingots/iron", count: 4 },
             { item: "minecraft:tnt", count: 1 }
         ],
         result: { item: "cgm:grenade", count: 1 },
@@ -127,7 +79,7 @@ const overrides = [
     {
         type: "cgm:workbench",
         materials: [
-            { tag: "forge:ingots/iron", count: 2 },
+            { tag: "forge:ingots/iron", count: 4 },
             { item: "minecraft:tnt", count: 1 },
             { tag: "forge:dusts/glowstone", count: 4 }
         ],
@@ -139,7 +91,7 @@ const overrides = [
     {
         type: "cgm:workbench",
         materials: [
-            { tag: "forge:ingots/iron", count: 2 },
+            { tag: "forge:ingots/iron", count: 4 },
             { item: "minecraft:tnt", count: 1 },
             { item: "minecraft:firework_rocket", count: 2 }
         ],
@@ -148,7 +100,6 @@ const overrides = [
     }
 ];
 
-// make adv guns & ammo take steel
 const gunsNeedingSteel = [
     "cgm:grenade_launcher",
     "cgm:mini_gun",
@@ -161,6 +112,39 @@ const gunsNeedingSteel = [
     "additionalguns:desert_eagle",
     "additionalguns:awm",
     "additionalguns:magnum"
+];
+
+const powerfulGuns = [
+    "cgm:bazooka",
+    "additionalguns:ravens_claw",
+    "additionalguns:vintorez",
+    "additionalguns:fn2000",
+    "additionalguns:val",
+    "additionalguns:aug",
+    "additionalguns:mp7a2",
+    "additionalguns:g11",
+    "additionalguns:m1014",
+    "additionalguns:ak104",
+    "additionalguns:ak105",
+    "additionalguns:akm_custom",
+    "additionalguns:akm",
+    "additionalguns:9a91",
+    "additionalguns:ak15",
+    "additionalguns:ak12",
+    "additionalguns:m16a2",
+    "additionalguns:m4a1s",
+    "additionalguns:m4a4",
+    "additionalguns:vector",
+    "additionalguns:mac10",
+    "additionalguns:awm",
+    "additionalguns:mammoth",
+    "additionalguns:ace_of_spades",
+    "additionalguns:ssg08"
+];
+
+// TODO
+const addIngredients = [
+    { to: "additionalguns:ravens_claw", material: { item: "beyond_earth:calorite_ingot", count: 10 } }
 ];
 
 const attachments = [
@@ -190,15 +174,22 @@ interface CustomIngredient {
     name: string;
 }
 
-function replaceMaterial(recipe: JsonObject, ingredient: CustomIngredient, replacement: CustomIngredient) {
-    const materials = recipe.get("materials").getAsJsonArray();
-    for (let i = 0; i < materials.size(); i++) {
-        const material = materials.get(i).getAsJsonObject();
-        if (material.has(ingredient.type) && material.get(ingredient.type).getAsString() === ingredient.name) {
-            material.remove(ingredient.type);
-            material.addProperty(replacement.type, replacement.name);
+function replaceMaterial(recipe: any, ingredient: CustomIngredient, replacement: CustomIngredient) {
+    const materials = recipe.materials || [];
+    for (let i = 0; i < materials.length; i++) {
+        const material = materials[i];
+        if (material[ingredient.type] === ingredient.name) {
+            material[ingredient.type] = undefined;
+            material[replacement.type] = replacement.name;
         }
     }
+}
+
+function addMaterial(recipe: any, ingredient: CustomIngredient, count: number) {
+    recipe.materials.push({
+        [ingredient.type]: ingredient.name,
+        count: count
+    });
 }
 
 onEvent("recipes", e => {
@@ -219,8 +210,19 @@ onEvent("recipes", e => {
             return;
         }
 
+        const json = JSON.parse(recipe.json.toString());
+
+        if (powerfulGuns.includes(recipe.getId())) {
+            addMaterial(json, { type: "item", name: "create:precision_mechanism" }, 1);
+            recipe.json = json;
+        }
+
+        for (const toAdd of addIngredients.filter(a => a.to === recipe.getId())) {
+            json["materials"].push(toAdd.material);
+            recipe.json = json;
+        }
+
         if (gunsNeedingSteel.includes(recipe.getId())) {
-            const json = recipe.json;
             replaceMaterial(
                 json,
                 { type: "tag", name: "forge:ingots/iron" },
@@ -231,11 +233,10 @@ onEvent("recipes", e => {
                 { type: "tag", name: "forge:nuggets/iron" },
                 { type: "tag", name: "forge:nuggets/steel" }
             );
-            return;
+            recipe.json = json;
         }
 
         if (attachments.includes(recipe.getId())) {
-            const json = recipe.json;
             replaceMaterial(
                 json,
                 { type: "tag", name: "forge:ingots/iron" },
@@ -257,6 +258,7 @@ onEvent("recipes", e => {
                 { type: "tag", name: "forge:glass_panes" },
                 { type: "item", name: "botania:mana_glass_pane" }
             );
+            recipe.json = json;
         }
     });
 });
