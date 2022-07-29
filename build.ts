@@ -11,7 +11,7 @@ import * as child_process from "child_process";
 const PROPERTIES: { [key: string]: string | number } = {
     PROJECT_ID: 637490,
     PACK_NAME: "IWX MC",
-    PACK_VERSION: "1.0.2"
+    PACK_VERSION: "1.0.3"
 };
 
 const FILES_TO_UPDATE = ["manifest.json", "**/config/bcc-common.toml"];
