@@ -1893,6 +1893,50 @@
 				},
 				"unify": true
 			},
+			"byg:ametrine_block": {
+				"id": "byg:ametrine_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/ametrine",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "ametrine"
+				},
+				"unify": true
+			},
+			"byg:pendorite_block": {
+				"id": "byg:pendorite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/pendorite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "pendorite"
+				},
+				"unify": true
+			},
+			"byg:anthracite_block": {
+				"id": "byg:anthracite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/anthracite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "anthracite"
+				},
+				"unify": true
+			},
+			"byg:lignite_block": {
+				"id": "byg:lignite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/lignite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "lignite"
+				},
+				"unify": true
+			},
 			"thermal:charcoal_block": {
 				"id": "thermal:charcoal_block",
 				"mod": "thermal",
@@ -4225,47 +4269,135 @@
 				},
 				"unify": true
 			},
-			"byg:ametrine_block": {
-				"id": "byg:ametrine_block",
-				"mod": "byg",
+			"thermal:steel_block": {
+				"id": "thermal:steel_block",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/ametrine",
+					"str": "forge:storage_blocks/steel",
 					"domain": "forge",
 					"type": "storage_blocks",
-					"material": "ametrine"
+					"material": "steel"
 				},
 				"unify": true
 			},
-			"byg:pendorite_block": {
-				"id": "byg:pendorite_block",
-				"mod": "byg",
+			"thermal:rose_gold_block": {
+				"id": "thermal:rose_gold_block",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/pendorite",
+					"str": "forge:storage_blocks/rose_gold",
 					"domain": "forge",
 					"type": "storage_blocks",
-					"material": "pendorite"
+					"material": "rose_gold"
 				},
 				"unify": true
 			},
-			"byg:anthracite_block": {
-				"id": "byg:anthracite_block",
-				"mod": "byg",
+			"thermal:steel_ingot": {
+				"id": "thermal:steel_ingot",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/anthracite",
+					"str": "forge:ingots/steel",
 					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "anthracite"
+					"type": "ingots",
+					"material": "steel"
 				},
 				"unify": true
 			},
-			"byg:lignite_block": {
-				"id": "byg:lignite_block",
-				"mod": "byg",
+			"thermal:steel_nugget": {
+				"id": "thermal:steel_nugget",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/lignite",
+					"str": "forge:nuggets/steel",
 					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "lignite"
+					"type": "nuggets",
+					"material": "steel"
+				},
+				"unify": true
+			},
+			"thermal:steel_dust": {
+				"id": "thermal:steel_dust",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:dusts/steel",
+					"domain": "forge",
+					"type": "dusts",
+					"material": "steel"
+				},
+				"unify": true
+			},
+			"thermal:steel_gear": {
+				"id": "thermal:steel_gear",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:gears/steel",
+					"domain": "forge",
+					"type": "gears",
+					"material": "steel"
+				},
+				"unify": true
+			},
+			"thermal:steel_plate": {
+				"id": "thermal:steel_plate",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:plates/steel",
+					"domain": "forge",
+					"type": "plates",
+					"material": "steel"
+				},
+				"unify": true
+			},
+			"thermal:rose_gold_ingot": {
+				"id": "thermal:rose_gold_ingot",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:ingots/rose_gold",
+					"domain": "forge",
+					"type": "ingots",
+					"material": "rose_gold"
+				},
+				"unify": true
+			},
+			"thermal:rose_gold_nugget": {
+				"id": "thermal:rose_gold_nugget",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:nuggets/rose_gold",
+					"domain": "forge",
+					"type": "nuggets",
+					"material": "rose_gold"
+				},
+				"unify": true
+			},
+			"thermal:rose_gold_dust": {
+				"id": "thermal:rose_gold_dust",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:dusts/rose_gold",
+					"domain": "forge",
+					"type": "dusts",
+					"material": "rose_gold"
+				},
+				"unify": true
+			},
+			"thermal:rose_gold_gear": {
+				"id": "thermal:rose_gold_gear",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:gears/rose_gold",
+					"domain": "forge",
+					"type": "gears",
+					"material": "rose_gold"
+				},
+				"unify": true
+			},
+			"thermal:rose_gold_plate": {
+				"id": "thermal:rose_gold_plate",
+				"mod": "thermal",
+				"tag": {
+					"str": "forge:plates/rose_gold",
+					"domain": "forge",
+					"type": "plates",
+					"material": "rose_gold"
 				},
 				"unify": true
 			}
@@ -4920,8 +5052,8 @@
 				"priority": 2
 			},
 			"forge:dusts/steel": {
-				"id": "mekanism:dust_steel",
-				"mod": "mekanism",
+				"id": "thermal:steel_dust",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:dusts/steel",
 					"domain": "forge",
@@ -4929,7 +5061,7 @@
 					"material": "steel"
 				},
 				"unify": true,
-				"priority": 3
+				"priority": 2
 			},
 			"forge:dusts/sulfur": {
 				"id": "thermal:sulfur_dust",
@@ -5028,8 +5160,8 @@
 				"priority": 3
 			},
 			"forge:ingots/steel": {
-				"id": "mekanism:ingot_steel",
-				"mod": "mekanism",
+				"id": "thermal:steel_ingot",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:ingots/steel",
 					"domain": "forge",
@@ -5037,7 +5169,7 @@
 					"material": "steel"
 				},
 				"unify": true,
-				"priority": 3
+				"priority": 2
 			},
 			"forge:nuggets/refined_obsidian": {
 				"id": "mekanism:nugget_refined_obsidian",
@@ -5076,8 +5208,8 @@
 				"priority": 3
 			},
 			"forge:nuggets/steel": {
-				"id": "mekanism:nugget_steel",
-				"mod": "mekanism",
+				"id": "thermal:steel_nugget",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:nuggets/steel",
 					"domain": "forge",
@@ -5085,7 +5217,7 @@
 					"material": "steel"
 				},
 				"unify": true,
-				"priority": 3
+				"priority": 2
 			},
 			"forge:dusts/iron": {
 				"id": "thermal:iron_dust",
@@ -5460,8 +5592,8 @@
 				"priority": 3
 			},
 			"forge:storage_blocks/steel": {
-				"id": "mekanism:block_steel",
-				"mod": "mekanism",
+				"id": "thermal:steel_block",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:storage_blocks/steel",
 					"domain": "forge",
@@ -5469,7 +5601,7 @@
 					"material": "steel"
 				},
 				"unify": true,
-				"priority": 3
+				"priority": 2
 			},
 			"forge:storage_blocks/fluorite": {
 				"id": "mekanism:block_fluorite",
@@ -6048,8 +6180,8 @@
 				"priority": 2
 			},
 			"forge:plates/steel": {
-				"id": "immersiveengineering:plate_steel",
-				"mod": "immersiveengineering",
+				"id": "thermal:steel_plate",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:plates/steel",
 					"domain": "forge",
@@ -6057,7 +6189,7 @@
 					"material": "steel"
 				},
 				"unify": true,
-				"priority": 4
+				"priority": 2
 			},
 			"forge:plates/iron": {
 				"id": "thermal:iron_plate",
@@ -6082,6 +6214,54 @@
 				},
 				"unify": true,
 				"priority": 2
+			},
+			"forge:storage_blocks/ametrine": {
+				"id": "byg:ametrine_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/ametrine",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "ametrine"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:storage_blocks/pendorite": {
+				"id": "byg:pendorite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/pendorite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "pendorite"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:storage_blocks/anthracite": {
+				"id": "byg:anthracite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/anthracite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "anthracite"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"forge:storage_blocks/lignite": {
+				"id": "byg:lignite_block",
+				"mod": "byg",
+				"tag": {
+					"str": "forge:storage_blocks/lignite",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "lignite"
+				},
+				"unify": true,
+				"priority": 9007199254740991
 			},
 			"forge:storage_blocks/gunpowder": {
 				"id": "thermal:gunpowder_block",
@@ -7368,8 +7548,8 @@
 				"priority": 9007199254740991
 			},
 			"forge:storage_blocks/rose_gold": {
-				"id": "tconstruct:rose_gold_block",
-				"mod": "tconstruct",
+				"id": "thermal:rose_gold_block",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:storage_blocks/rose_gold",
 					"domain": "forge",
@@ -7377,11 +7557,11 @@
 					"material": "rose_gold"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			},
 			"forge:ingots/rose_gold": {
-				"id": "tconstruct:rose_gold_ingot",
-				"mod": "tconstruct",
+				"id": "thermal:rose_gold_ingot",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:ingots/rose_gold",
 					"domain": "forge",
@@ -7389,11 +7569,11 @@
 					"material": "rose_gold"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			},
 			"forge:nuggets/rose_gold": {
-				"id": "tconstruct:rose_gold_nugget",
-				"mod": "tconstruct",
+				"id": "thermal:rose_gold_nugget",
+				"mod": "thermal",
 				"tag": {
 					"str": "forge:nuggets/rose_gold",
 					"domain": "forge",
@@ -7401,7 +7581,7 @@
 					"material": "rose_gold"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			},
 			"forge:storage_blocks/pig_iron": {
 				"id": "tconstruct:pig_iron_block",
@@ -7643,53 +7823,53 @@
 				"unify": true,
 				"priority": 4
 			},
-			"forge:storage_blocks/ametrine": {
-				"id": "byg:ametrine_block",
-				"mod": "byg",
+			"forge:gears/steel": {
+				"id": "thermal:steel_gear",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/ametrine",
+					"str": "forge:gears/steel",
 					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "ametrine"
+					"type": "gears",
+					"material": "steel"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			},
-			"forge:storage_blocks/pendorite": {
-				"id": "byg:pendorite_block",
-				"mod": "byg",
+			"forge:dusts/rose_gold": {
+				"id": "thermal:rose_gold_dust",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/pendorite",
+					"str": "forge:dusts/rose_gold",
 					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "pendorite"
+					"type": "dusts",
+					"material": "rose_gold"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			},
-			"forge:storage_blocks/anthracite": {
-				"id": "byg:anthracite_block",
-				"mod": "byg",
+			"forge:gears/rose_gold": {
+				"id": "thermal:rose_gold_gear",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/anthracite",
+					"str": "forge:gears/rose_gold",
 					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "anthracite"
+					"type": "gears",
+					"material": "rose_gold"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			},
-			"forge:storage_blocks/lignite": {
-				"id": "byg:lignite_block",
-				"mod": "byg",
+			"forge:plates/rose_gold": {
+				"id": "thermal:rose_gold_plate",
+				"mod": "thermal",
 				"tag": {
-					"str": "forge:storage_blocks/lignite",
+					"str": "forge:plates/rose_gold",
 					"domain": "forge",
-					"type": "storage_blocks",
-					"material": "lignite"
+					"type": "plates",
+					"material": "rose_gold"
 				},
 				"unify": true,
-				"priority": 9007199254740991
+				"priority": 2
 			}
 		},
 		"duplicates": {
@@ -8925,6 +9105,102 @@
 					"domain": "forge",
 					"type": "rods",
 					"material": "iron"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"mekanism:block_steel": {
+				"id": "mekanism:block_steel",
+				"mod": "mekanism",
+				"tag": {
+					"str": "forge:storage_blocks/steel",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "steel"
+				},
+				"unify": true,
+				"priority": 3
+			},
+			"tconstruct:rose_gold_block": {
+				"id": "tconstruct:rose_gold_block",
+				"mod": "tconstruct",
+				"tag": {
+					"str": "forge:storage_blocks/rose_gold",
+					"domain": "forge",
+					"type": "storage_blocks",
+					"material": "rose_gold"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"mekanism:ingot_steel": {
+				"id": "mekanism:ingot_steel",
+				"mod": "mekanism",
+				"tag": {
+					"str": "forge:ingots/steel",
+					"domain": "forge",
+					"type": "ingots",
+					"material": "steel"
+				},
+				"unify": true,
+				"priority": 3
+			},
+			"mekanism:nugget_steel": {
+				"id": "mekanism:nugget_steel",
+				"mod": "mekanism",
+				"tag": {
+					"str": "forge:nuggets/steel",
+					"domain": "forge",
+					"type": "nuggets",
+					"material": "steel"
+				},
+				"unify": true,
+				"priority": 3
+			},
+			"mekanism:dust_steel": {
+				"id": "mekanism:dust_steel",
+				"mod": "mekanism",
+				"tag": {
+					"str": "forge:dusts/steel",
+					"domain": "forge",
+					"type": "dusts",
+					"material": "steel"
+				},
+				"unify": true,
+				"priority": 3
+			},
+			"immersiveengineering:plate_steel": {
+				"id": "immersiveengineering:plate_steel",
+				"mod": "immersiveengineering",
+				"tag": {
+					"str": "forge:plates/steel",
+					"domain": "forge",
+					"type": "plates",
+					"material": "steel"
+				},
+				"unify": true,
+				"priority": 4
+			},
+			"tconstruct:rose_gold_ingot": {
+				"id": "tconstruct:rose_gold_ingot",
+				"mod": "tconstruct",
+				"tag": {
+					"str": "forge:ingots/rose_gold",
+					"domain": "forge",
+					"type": "ingots",
+					"material": "rose_gold"
+				},
+				"unify": true,
+				"priority": 9007199254740991
+			},
+			"tconstruct:rose_gold_nugget": {
+				"id": "tconstruct:rose_gold_nugget",
+				"mod": "tconstruct",
+				"tag": {
+					"str": "forge:nuggets/rose_gold",
+					"domain": "forge",
+					"type": "nuggets",
+					"material": "rose_gold"
 				},
 				"unify": true,
 				"priority": 9007199254740991
