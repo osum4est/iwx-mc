@@ -2,7 +2,7 @@
   "name": "netherite",
   "disable": false,
   "tier": 5,
-  "color": "4dd979",
+  "color": "3f353c",
   "armorPoints": 4,
   "enchantability": 15,
   "craftingMaterial": "minecraft:netherite_ingot",
