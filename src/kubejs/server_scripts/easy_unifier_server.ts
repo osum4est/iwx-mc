@@ -1,4 +1,4 @@
-// priority: 999
+// priority: 1
 
 import * as common from "common_scripts/easy_unifier_common";
 import { AnalyzeResults } from "common_scripts/easy_unifier_common";
@@ -121,21 +121,21 @@ function getRecipeKey(recipe: EasyUnifierRecipe) {
     switch (recipe.json.get("type").getAsString()) {
         case "minecraft:crafting_shaped":
             return JSON.stringify({
-                type: recipe.json.get("type").toString(),
+                type: recipe.json.get("type").getAsString(),
                 pattern: recipe.json.get("pattern").toString(),
                 key: recipe.json.get("key").toString(),
                 result: recipe.json.get("result").toString()
             });
         case "minecraft:crafting_shapeless":
             return JSON.stringify({
-                type: recipe.json.get("type").toString(),
+                type: recipe.json.get("type").getAsString(),
                 ingredients: recipe.json.get("ingredients").toString(),
                 result: recipe.json.get("result").toString()
             });
         case "minecraft:smelting":
         case "minecraft:blasting":
             return JSON.stringify({
-                type: recipe.json.get("type").toString(),
+                type: recipe.json.get("type").getAsString(),
                 ingredient: recipe.json.get("ingredient").toString(),
                 result: recipe.json.get("result").toString()
             });

@@ -1,11 +1,11 @@
 {
-  "name": "emerald",
+  "name": "netherite",
   "disable": false,
   "tier": 5,
   "color": "4dd979",
   "armorPoints": 4,
   "enchantability": 15,
-  "craftingMaterial": "tag:forge:gems/emerald",
+  "craftingMaterial": "minecraft:netherite_ingot",
   "creative": false,
   "rarity": 0,
   "toughness": 0.0,
